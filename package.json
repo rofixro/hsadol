@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Calvest/hsadol/issues"
   },
-  "homepage": "https://github.com/Calvest/hsadol#readme"
+  "homepage": "https://github.com/Calvest/hsadol#readme",
+  "devDependencies": {
+    "rollup": "^2.75.3"
+  }
 }
