@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Calvest/hsadol#readme",
   "devDependencies": {
+    "prettier": "2.6.2",
     "rollup": "^2.75.3"
   }
 }
