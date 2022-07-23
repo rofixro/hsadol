@@ -1,5 +1,3 @@
 export function head(array = []) {
-    if (!Array.isArray(array)) return array;
-
-    return array[0];
+    return (array.length) ? array[0] : undefined;
 }
