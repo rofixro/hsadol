@@ -1,18 +1,21 @@
 {
   "name": "hsadol",
-  "type": "module",
-  "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "支持 TypeScript 的 Lodash",
   "main": "index.js",
-  "author": "calvest",
-  "keywords": ["lodash"],
-  "description": "lodash 小练习",
-  "homepage": "https://github.com/Calvest/hsadol#readme",
-  "bugs": {
-    "url": "https://github.com/Calvest/hsadol/issues"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Calvest/hsadol.git",
-  }
+    "url": "git+https://github.com/ojhaywood/hsadol.git"
+  },
+  "keywords": [
+    "typescript",
+    "lodash"
+  ],
+  "author": "ojhaywood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojhaywood/hsadol/issues"
+  },
+  "homepage": "https://github.com/ojhaywood/hsadol#readme"
 }
