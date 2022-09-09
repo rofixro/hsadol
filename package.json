@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "支持 TypeScript 的 Lodash",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "rollup --config"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ojhaywood/hsadol.git"
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ojhaywood/hsadol/issues"
   },
-  "homepage": "https://github.com/ojhaywood/hsadol#readme"
+  "homepage": "https://github.com/ojhaywood/hsadol#readme",
+  "devDependencies": {
+    "rollup": "^2.79.0"
+  }
 }
