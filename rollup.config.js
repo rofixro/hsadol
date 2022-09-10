@@ -1,8 +1,11 @@
+import typescript from '@rollup/plugin-typescript';
+
 export default {
-  input: 'src/main.js',
+  input: 'src/index.ts',
   output: {
-    file: 'bundle.js',
+    file: 'lib/hsadol.js',
     format: 'iife',
-    name: 'hsadol
-  }
+    name: 'hsadol'
+  },
+  plugins: [typescript()]
 }
