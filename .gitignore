@@ -1,6 +1,11 @@
 # OS
 .DS_Store
 
+# Files
+lib
+node_modules
+pnpm-lock.yaml
+
 # Editor directories and files
 .idea
 .vscode/*
