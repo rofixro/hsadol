@@ -4,6 +4,7 @@
   "description": "reproduction lodash",
   "main": "index.js",
   "scripts": {
+    "test": "vitest --ui",
     "build": "rollup --config"
   },
   "repository": {
@@ -22,7 +23,9 @@
   },
   "homepage": "https://github.com/ojhaywood/hsadol#readme",
   "devDependencies": {
+    "@vitest/ui": "^0.23.4",
     "rollup": "^2.79.1",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-terser": "^7.0.2",
+    "vitest": "^0.23.4"
   }
 }
