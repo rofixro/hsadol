@@ -1,4 +1,4 @@
-import { head } from "../src/head";
+import { head } from "../src/Array/head";
 import { expect, test } from "vitest";
 
 test("head()", () => {

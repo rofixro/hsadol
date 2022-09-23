@@ -1,3 +1,3 @@
-import { head } from "./src/head";
+import { head } from "./src/Array/head";
 
 export { head };
