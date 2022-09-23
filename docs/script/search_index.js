@@ -1,8 +1,8 @@
 window.esdocSearchIndex = [
   [
-    "hsadol/src/head.js~head",
+    "hsadol/src/array/head.js~head",
     "function/index.html#static-function-head",
-    "<span>head</span> <span class=\"search-result-import-path\">hsadol/src/head.js</span>",
+    "<span>head</span> <span class=\"search-result-import-path\">hsadol/src/Array/head.js</span>",
     "function"
   ],
   [
@@ -288,9 +288,9 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "src/head.js",
-    "file/src/head.js.html",
-    "src/head.js",
+    "src/array/head.js",
+    "file/src/Array/head.js.html",
+    "src/Array/head.js",
     "file"
   ]
 ]

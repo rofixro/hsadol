@@ -566,10 +566,10 @@
   {
     "__docId__": 48,
     "kind": "file",
-    "name": "src/head.js",
-    "content": "export function head(array = []) {\n  // 只有 null 和 undefined 获取下标时会报错\n  return array ? array[0] : undefined;\n}\n",
+    "name": "src/Array/head.js",
+    "content": "/**\n * Get the first element of the array\n * @version 0.0.1\n * @param {*[]} array - Arrays to be queried\n * @returns {*} Returns the first element of the array\n * @see https://ojhaywood.github.io/hsadol/function/index.html#static-function-head\n * @example\n * head([1, 2, 3])\n * // 1\n *\n * head([])\n * // undefined\n */\nexport function head(array) {\n  return array ? array[0] : undefined;\n}\n",
     "static": true,
-    "longname": "/Users/calvest/i/hsadol/src/head.js",
+    "longname": "/Users/calvest/i/hsadol/src/Array/head.js",
     "access": "public",
     "description": null,
     "lineNumber": 1
@@ -578,33 +578,49 @@
     "__docId__": 49,
     "kind": "function",
     "name": "head",
-    "memberof": "src/head.js",
+    "memberof": "src/Array/head.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/head.js~head",
+    "longname": "src/Array/head.js~head",
     "access": "public",
     "export": true,
-    "importPath": "hsadol/src/head.js",
+    "importPath": "hsadol/src/Array/head.js",
     "importStyle": "{head}",
-    "description": null,
-    "lineNumber": 1,
-    "undocument": true,
+    "description": "Get the first element of the array",
+    "examples": [
+      "head([1, 2, 3])\n// 1\n\nhead([])\n// undefined"
+    ],
+    "see": [
+      "https://ojhaywood.github.io/hsadol/function/index.html#static-function-head"
+    ],
+    "lineNumber": 14,
+    "version": "0.0.1",
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{*} Returns the first element of the array"
+      }
+    ],
     "params": [
       {
-        "name": "array",
-        "optional": true,
+        "nullable": null,
         "types": [
           "*[]"
         ],
-        "defaultRaw": [],
-        "defaultValue": "[]"
+        "spread": false,
+        "optional": false,
+        "name": "array",
+        "description": "Arrays to be queried"
       }
     ],
     "return": {
+      "nullable": null,
       "types": [
         "*"
-      ]
+      ],
+      "spread": false,
+      "description": "Returns the first element of the array"
     }
   },
   {

@@ -1,14 +1,12 @@
 {
-  "coverage": "0%",
+  "coverage": "100%",
   "expectCount": 1,
-  "actualCount": 0,
+  "actualCount": 1,
   "files": {
-    "src/head.js": {
+    "src/Array/head.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        1
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     }
   }
 }
