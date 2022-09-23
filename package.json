@@ -6,6 +6,7 @@
   "scripts": {
     "test": "vitest --ui",
     "build": "rollup --config",
+    "start": "pnpm i && pnpm doc",
     "doc": "esdoc && open ./docs/index.html"
   },
   "repository": {
