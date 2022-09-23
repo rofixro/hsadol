@@ -8,12 +8,12 @@ A JavaScript tool library that replicates Lodash
 
 Improving programming skills requires constant practice
 
-## Install
+## Quick Overview
 
 ```bash
 $ git clone git@github.com:ojhaywood/hsadol.git
 $ cd hsadol
-$ pnpm i
+$ pnpm start
 ```
 
 ## Badge
