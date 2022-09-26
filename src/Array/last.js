@@ -1,3 +1,3 @@
 export function last(array) {
-    return array ? array[length - 1] : undefined;
+  return array ? array[array.length - 1] : undefined;
 }
