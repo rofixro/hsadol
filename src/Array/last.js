@@ -1,7 +1,7 @@
 /**
  * Get the last element of the array
  * @version 0.0.1
- * @param {*[]} array - Arrays to be queried
+ * @param {*[]} target - Arrays to be queried
  * @returns {*} Returns the last element of the array
  * @see https://ojhaywood.github.io/hsadol/function/index.html#static-function-last
  * @example
@@ -11,6 +11,6 @@
  * last([])
  * // undefined
  */
-export function last(array) {
-  return array ? array[array.length - 1] : undefined;
+export function last(target) {
+  return target ? target[target.length - 1] : undefined;
 }
