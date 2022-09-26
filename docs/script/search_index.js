@@ -1,8 +1,20 @@
 window.esdocSearchIndex = [
   [
+    "hsadol/src/array/chunk.js~chunk",
+    "function/index.html#static-function-chunk",
+    "<span>chunk</span> <span class=\"search-result-import-path\">hsadol/src/Array/chunk.js</span>",
+    "function"
+  ],
+  [
     "hsadol/src/array/head.js~head",
     "function/index.html#static-function-head",
     "<span>head</span> <span class=\"search-result-import-path\">hsadol/src/Array/head.js</span>",
+    "function"
+  ],
+  [
+    "hsadol/src/array/last.js~last",
+    "function/index.html#static-function-last",
+    "<span>last</span> <span class=\"search-result-import-path\">hsadol/src/Array/last.js</span>",
     "function"
   ],
   [
@@ -288,9 +300,21 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
+    "src/array/chunk.js",
+    "file/src/Array/chunk.js.html",
+    "src/Array/chunk.js",
+    "file"
+  ],
+  [
     "src/array/head.js",
     "file/src/Array/head.js.html",
     "src/Array/head.js",
+    "file"
+  ],
+  [
+    "src/array/last.js",
+    "file/src/Array/last.js.html",
+    "src/Array/last.js",
     "file"
   ]
 ]

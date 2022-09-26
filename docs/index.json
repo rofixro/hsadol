@@ -566,6 +566,59 @@
   {
     "__docId__": 48,
     "kind": "file",
+    "name": "src/Array/chunk.js",
+    "content": "export function chunk(array = [], size = 1) {\n  if (!Array.isArray(array)) return array;\n}\n",
+    "static": true,
+    "longname": "/Users/calvest/i/hsadol/src/Array/chunk.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "chunk",
+    "memberof": "src/Array/chunk.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Array/chunk.js~chunk",
+    "access": "public",
+    "export": true,
+    "importPath": "hsadol/src/Array/chunk.js",
+    "importStyle": "{chunk}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "array",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      },
+      {
+        "name": "size",
+        "optional": true,
+        "types": [
+          "number"
+        ],
+        "defaultRaw": 1,
+        "defaultValue": "1"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
     "name": "src/Array/head.js",
     "content": "/**\n * Get the first element of the array\n * @version 0.0.1\n * @param {*[]} array - Arrays to be queried\n * @returns {*} Returns the first element of the array\n * @see https://ojhaywood.github.io/hsadol/function/index.html#static-function-head\n * @example\n * head([1, 2, 3])\n * // 1\n *\n * head([])\n * // undefined\n */\nexport function head(array) {\n  return array ? array[0] : undefined;\n}\n",
     "static": true,
@@ -575,7 +628,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 49,
+    "__docId__": 51,
     "kind": "function",
     "name": "head",
     "memberof": "src/Array/head.js",
@@ -624,8 +677,49 @@
     }
   },
   {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/Array/last.js",
+    "content": "export function last(array) {\n  return array ? array[length - 1] : undefined;\n}\n",
+    "static": true,
+    "longname": "/Users/calvest/i/hsadol/src/Array/last.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "last",
+    "memberof": "src/Array/last.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Array/last.js~last",
+    "access": "public",
+    "export": true,
+    "importPath": "hsadol/src/Array/last.js",
+    "importStyle": "{last}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "array",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
     "kind": "index",
-    "content": "# Reproduction [Lodash](https://lodash.com/)\n\n[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)\n\nA JavaScript tool library that replicates Lodash\n\n## Background\n\nImproving programming skills requires constant practice\n\n## Quick Overview\n\n```bash\n$ git clone git@github.com:ojhaywood/hsadol.git\n$ cd hsadol\n$ pnpm i\n$ pnpm doc\n```\n\n## Badge\n\n[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)\n\n## License\n\n[MIT](License) © OJ Haywood\n\n\n",
+    "content": "# Reproduction [Lodash](https://lodash.com/)\n\n[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)\n\nA JavaScript tool library that replicates Lodash\n\n## Background\n\nImproving programming skills requires constant practice\n\n## Quick Overview\n\n```bash\n$ git clone git@github.com:ojhaywood/hsadol.git\n$ cd hsadol\n$ pnpm start\n```\n\n## Badge\n\n[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)\n\n## License\n\n[MIT](License) © OJ Haywood\n\n\n",
     "longname": "/Users/calvest/i/hsadol/README.md",
     "name": "./README.md",
     "static": true,
