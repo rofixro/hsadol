@@ -37,8 +37,21 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/Array/last.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export function last(array) {
-  return array ? array[length - 1] : undefined;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * Get the last element of the array
+ * @version 0.0.1
+ * @param {*[]} array - Arrays to be queried
+ * @returns {*} Returns the last element of the array
+ * @see https://ojhaywood.github.io/hsadol/function/index.html#static-function-last
+ * @example
+ * last([1, 2, 3])
+ * // 3
+ *
+ * last([])
+ * // undefined
+ */
+export function last(array) {
+  return array ? array[array.length - 1] : undefined;
 }
 </code></pre>
 

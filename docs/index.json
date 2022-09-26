@@ -680,7 +680,7 @@
     "__docId__": 52,
     "kind": "file",
     "name": "src/Array/last.js",
-    "content": "export function last(array) {\n  return array ? array[length - 1] : undefined;\n}\n",
+    "content": "/**\n * Get the last element of the array\n * @version 0.0.1\n * @param {*[]} array - Arrays to be queried\n * @returns {*} Returns the last element of the array\n * @see https://ojhaywood.github.io/hsadol/function/index.html#static-function-last\n * @example\n * last([1, 2, 3])\n * // 3\n *\n * last([])\n * // undefined\n */\nexport function last(array) {\n  return array ? array[array.length - 1] : undefined;\n}\n",
     "static": true,
     "longname": "/Users/calvest/i/hsadol/src/Array/last.js",
     "access": "public",
@@ -700,21 +700,40 @@
     "export": true,
     "importPath": "hsadol/src/Array/last.js",
     "importStyle": "{last}",
-    "description": null,
-    "lineNumber": 1,
-    "undocument": true,
+    "description": "Get the last element of the array",
+    "examples": [
+      "last([1, 2, 3])\n// 3\n\nlast([])\n// undefined"
+    ],
+    "see": [
+      "https://ojhaywood.github.io/hsadol/function/index.html#static-function-last"
+    ],
+    "lineNumber": 14,
+    "version": "0.0.1",
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{*} Returns the last element of the array"
+      }
+    ],
     "params": [
       {
-        "name": "array",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "array",
+        "description": "Arrays to be queried"
       }
     ],
     "return": {
+      "nullable": null,
       "types": [
         "*"
-      ]
+      ],
+      "spread": false,
+      "description": "Returns the last element of the array"
     }
   },
   {

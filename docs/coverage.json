@@ -1,7 +1,7 @@
 {
-  "coverage": "33.33%",
+  "coverage": "66.66%",
   "expectCount": 3,
-  "actualCount": 1,
+  "actualCount": 2,
   "files": {
     "src/Array/chunk.js": {
       "expectCount": 1,
@@ -17,10 +17,8 @@
     },
     "src/Array/last.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        1
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     }
   }
 }
